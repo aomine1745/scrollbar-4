@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'consolas'
+}
+::-webkit-scrollbar {
+	width: 0;
+}
+section {
+	padding: 100px;
+	background-color: #000;
+	color: #fff;
+}
+h2 {
+	margin-bottom: 10px;
+	font-size: 3.5em; 
+}
+p {
+	font-size: 1.6em;
+}
+.progressbar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 15px;
+	height: 100%;
+	border-radius: 10px;
+	background-image: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4)
+}
